@@ -14,7 +14,8 @@ const result = numbers.map(doubleIt);
 const output = numbers.map(double2);
 // console.log(output); 
 
-const output2 =numbers.map(n => n * 2);
+const num = (a, b) => a + b ;
+const output2 =numbers.map((n) => n * 2);
 console.log(output2);
 
 // const doubled = [];
@@ -23,3 +24,7 @@ console.log(output2);
 //     doubled.push(double)
 // }
 // console.log(doubled);
+
+
+const friends = ['abul', 'babul', 'kabul'];
+friends.map(n=> console.log(n))
